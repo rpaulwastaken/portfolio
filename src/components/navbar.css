@@ -1,0 +1,47 @@
+/*design for desktop first*/
+@media only screen and (min-width: 768px) {
+  .navbar {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 21%;
+    padding-top: 0.2%;
+  }
+
+  /* css the links inside the navbar */
+  .navbar a{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .navbar a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #d40022;
+    transition: width .3s;
+  }
+
+  .navbar a:hover::after{
+    width: 100%;
+    transition: width .3s;
+  }
+}
+
+/* design for mobile first */
+@media only screen and (max-width: 768px) {
+
+}
