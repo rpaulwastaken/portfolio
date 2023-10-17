@@ -1,6 +1,22 @@
-@tailwind base;
-@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');@tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+::-webkit-scrollbar-track {
+    background: #1d1d1d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #868686;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5b5b5b;
+}
 
 html, body {
     background: radial-gradient(farthest-corner at 90% 3%, #282827 0.9%, #1d1d1d 30%, #181818 70%) no-repeat fixed;
