@@ -16,8 +16,7 @@
   }
 
   .navbar-bg {
-    background-color: #1e1e1e;
-    transition: 0.2s;
+    background: radial-gradient(farthest-corner at 90% 3%, #282827 0.9%, #1d1d1d 30%, #181818 70%) no-repeat fixed;
     z-index: 999;
   }
 
