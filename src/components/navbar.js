@@ -19,7 +19,7 @@ const Navbar = () => {
             <nav className={color ? 'navbar navbar-bg' : 'navbar'}>
                 <a className="navbar-brand" href="/">Home</a>
                 <a className="navbar-brand" href="/projects">Projects</a>
-                <a className="navbar-brand" href="/about">About</a>
+                <a className="navbar-brand" href="/resume">Resume</a>
                 <a className="navbar-brand" href="/contact">Contact</a>
             </nav>
     );

@@ -11,7 +11,9 @@
     }
 
     .name{
-        color: #fa0038;
+        background: linear-gradient(to right, #d40022, #ff1e00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .itext h2{
