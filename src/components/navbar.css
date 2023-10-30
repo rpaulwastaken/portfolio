@@ -1,7 +1,8 @@
 /*design for desktop first*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1201px) {
   .navbar {
     background-color: transparent;
+    transition: background-color 0.3s ease-out;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -11,17 +12,18 @@
     align-items: center;
     padding-right: 21%;
     padding-top: 0.2%;
-    transition: 0.4s;
     z-index: 999;
   }
 
   .navbar-bg {
-    background: radial-gradient(farthest-corner at 90% 3%, #282827 0.9%, #1d1d1d 30%, #181818 70%) no-repeat fixed;
+    background: #181818;
     z-index: 999;
+    transition: background 0.3s ease-out;
   }
 
   /* css the links inside the navbar */
   .navbar a{
+    animation: None;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;

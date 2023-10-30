@@ -1,17 +1,19 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1201px) {
     .itext{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         font-size: 35px;
         color: white;
-        margin-top: 25vh;
-        margin-left: 45vw;;
-        padding-bottom: 8vh;
+        margin-top: 195px;
+        margin-left: 45vw;
+        padding-bottom: 60px;
     }
 
     .name{
         background: linear-gradient(to right, #d40022, #ff1e00);
+        padding-bottom: 2px;
+        padding-right: 2px;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -20,8 +22,8 @@
         font-size: 15px;
         font-style: revert;
         font-weight: lighter;
-        padding-right: 40%;
-        padding-bottom: 3vh;
+        padding-right: calc(100% - 35vw);
+        padding-bottom: 25px;
         color: #aeaaaa;
     }
 }
