@@ -28,7 +28,7 @@
     }
 
     .Tile1:hover h1 img{
-        margin-left: 1%;
+        margin-left: 3px;
         transition: 0.3s ease-in-out;
     }
 
@@ -50,7 +50,7 @@
     }
 
     .Tile2:hover h1 img{
-        margin-left: 1%;
+        margin-left: 3px;
         transition: 0.3s ease-in-out;
     }
 
@@ -72,14 +72,14 @@
     }
 
     .Tile3:hover h1 img{
-        margin-left: 1%;
+        margin-left: 3px;
         transition: 0.3s ease-in-out;
     }
 
 
     .Tile1 img{
-        margin-left: 15%;
-        margin-top: 15%;
+        margin-left: 46px;
+        margin-top: 46px;
         height: 50px;
         width: 50px;
         filter: saturate(200%) hue-rotate(30deg);
@@ -92,8 +92,8 @@
         color: #fff;
         margin-bottom: 0;
         font-weight: 900;
-        margin-top: 5%;
-        margin-left: 15%;
+        margin-top: calc(46px/3);
+        margin-left: 46px;
     }
 
     .Tile1 h1 img{
@@ -107,15 +107,15 @@
     .Tile1 p{
         font-size: 1rem;
         color: #bababa;
-        margin-top: 5%;
-        margin-left: 15%;
-        margin-right: 10%;
+        margin-top: calc(46px/3);
+        margin-left: 46px;
+        margin-right: calc(calc(46px/3)*2);
         text-align: left;
     }
 
     .Tile2 img{
-        margin-left: 15%;
-        margin-top: 15%;
+        margin-left: 46px;
+        margin-top: 46px;
         height: 50px;
         width: 50px;
         filter: invert(100%);
@@ -128,8 +128,8 @@
         color: #fff;
         margin-bottom: 0;
         font-weight: 900;
-        margin-top: 5%;
-        margin-left: 15%;
+        margin-top: calc(46px/3);
+        margin-left: 46px;
     }
 
     .Tile2 h1 img{
@@ -144,15 +144,15 @@
     .Tile2 p{
         font-size: 1rem;
         color: #c7c7c7;
-        margin-top: 5%;
-        margin-left: 15%;
-        margin-right: 10%;
+        margin-top: calc(46px/3);
+        margin-left: 46px;
+        margin-right: calc(calc(46px/3)*2);
         text-align: left;
     }
 
     .Tile3 img{
-        margin-left: 15%;
-        margin-top: 15%;
+        margin-left: 46px;
+        margin-top: 46px;
         height: 50px;
         width: 50px;
         filter: saturate(200%) hue-rotate(30deg);
@@ -165,8 +165,8 @@
         color: #fff;
         margin-bottom: 0;
         font-weight: 900;
-        margin-top: 5%;
-        margin-left: 15%;
+        margin-top: calc(46px/3);
+        margin-left: 46px;
     }
 
     .Tile3 h1 img{
@@ -180,9 +180,9 @@
     .Tile3 p{
         font-size: 1rem;
         color: #bababa;
-        margin-top: 5%;
-        margin-left: 15%;
-        margin-right: 10%;
+        margin-top: calc(46px/3);
+        margin-left: 46px;
+        margin-right: calc(calc(46px/3)*2);
         text-align: left;
     }
 }
