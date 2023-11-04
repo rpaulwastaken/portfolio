@@ -1,0 +1,55 @@
+@media only screen and (min-width: 1201px) {
+    .skillsTitle {
+        position: relative;
+        margin-top: 550px;
+        margin-left: 20vw;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #ba1e1e;
+    }
+
+    .skillsContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 10px;
+        margin-left: 20vw;
+        width: 60vw;
+        height: auto;
+        background: #1e1e1e;
+        font: 1rem 'Roboto', sans-serif;
+        padding: 20px;
+    }
+
+    .languages, .dsa, .webDev, .dataScience, .machineLearningFrameworks, .computerVision, .tools, .operatingSystems{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        color: #ffffff;
+        padding: 20px;
+        transition: 0.2s ease-in-out;
+        cursor: default;
+    }
+
+    .languages:hover, .dsa:hover, .webDev:hover, .dataScience:hover, .machineLearningFrameworks:hover, .computerVision:hover, .tools:hover, .operatingSystems:hover{
+        background: #2c2c2c;
+    }
+
+    .languages h2::after, .dsa h2::after, .webDev h2::after, .dataScience h2::after, .machineLearningFrameworks h2::after, .computerVision h2::after, .tools h2::after, .operatingSystems h2::after{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 20px;
+        background-color: #8d0b1c;
+        margin-left:5px;
+    }
+
+    .languages p, .dsa p, .webDev p, .dataScience p, .machineLearningFrameworks p, .computerVision p, .tools p, .operatingSystems p{
+        margin-left: 10px;
+        color: #c1c1c1;
+    }
+
+    .languages span, .dsa span, .webDev span, .dataScience span, .machineLearningFrameworks span, .computerVision span, .tools span, .operatingSystems span{
+        color: #666666;
+    }
+}
