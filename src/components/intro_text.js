@@ -7,10 +7,7 @@ function IText() {
         <div className="itext">
             <h1>Hello, I'm <span className="name">Rounak</span>.</h1>
             <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nullam euismod, nisl eget aliquam ultricies, quam sapien
-                tincidunt nunc, eget aliquam nisl nunc quis nunc. Nulla
-                facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi.
+                I'm a passionate problem solver with diverse project experience in the fields of Machine Learning, Computer Vision and Web Development, along with a strong programming foundation. I enjoy solving problems in LeetCode and Codeforces.
             </h2>
             <SocialIcons />
         </div>

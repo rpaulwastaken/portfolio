@@ -11,27 +11,27 @@ function TopProjects() {
             <div className={"Tile1"}>
                 <div className={"Tile1Text"}>
                     <img className={"Tile1Image"} src={python_red_img} alt={"Python"}/>
-                    <h1>Project 1 <img className={"Arrow"} src={arrow_img} alt={"Know More"}/> </h1>
+                    <h1>Segmentation<img className={"Arrow"} src={arrow_img} alt={"Know More"}/> </h1>
                     <p>
-                        Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.
+                        A segmentation algorithm that takes in an image of skin cancer and outputs the segmented mask of the affected area.
                     </p>
                 </div>
             </div>
             <div className={"Tile2"}>
                 <div className={"Tile2Text"}>
                     <img className={"Tile2Image"} src={python_img} alt={"Python"}/>
-                    <h1>Project 2 <img className={"Arrow"} src={arrow_img} alt={"Know More"}/></h1>
+                    <h1>De - Hazer<img className={"Arrow"} src={arrow_img} alt={"Know More"}/></h1>
                     <p>
-                        Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.
+                        A model producing clear images from hazy images. Specifics of the project are confidential as it is a part of the SIH'23 Nationals.
                     </p>
                 </div>
             </div>
             <div className={"Tile3"}>
                 <div className={"Tile3Text"}>
                     <img className={"Tile3Image"} src={cpp_img} alt={"C++"}/>
-                    <h1>Project 3 <img className={"Arrow"} src={arrow_img} alt={"Know More"}/></h1>
+                    <h1>Game of Hex <img className={"Arrow"} src={arrow_img} alt={"Know More"}/></h1>
                     <p>
-                        Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.
+                        A game of hex vs the computer. The computer uses the Monte Carlo Tree Search algorithm to make its moves.
                     </p>
                 </div>
             </div>

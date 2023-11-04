@@ -4,6 +4,7 @@ import IBox from "./components/intro_box";
 import IText from "./components/intro_text";
 import Avatar from "./components/avatar";
 import Skills from "./components/skills";
+import OtherProjects from "./components/otherprojects";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <div> <IText /></div>
           <div> <IBox /></div>
           <div> <Skills /></div>
+          <div> <OtherProjects /></div>
       </>
   );
 }
