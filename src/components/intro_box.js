@@ -4,9 +4,12 @@ import TopProjects from "./top_Projects";
 
 function IBox() {
     return (
-        <div className="ibox">
-            <TopProjects />
-        </div>
+        <>
+            <div className={"filler"} />
+            <div className="ibox">
+                <TopProjects />
+            </div>
+        </>
     );
 }
 
